@@ -1,2 +1,0 @@
-# OneGoal
-OneGoal Website

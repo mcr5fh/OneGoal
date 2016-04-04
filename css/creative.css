@@ -81,7 +81,7 @@ aside {
     padding: 50px 0;
 }
 
-#recent {
+#contact {
     background: url(../img/world1.jpg);
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@ aside {
     color: #ffffff;
 
 }
-#recent .overlay{
+#contact .overlay{
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -231,13 +231,14 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background: #000 url(../img/onegoal_logo.png) center center; /*url(../img/one_goal_edit.jpg);*/
+    background: #fff url(../img/onegoal_logo.png) center center; /*url(../img/one_goal_edit.jpg);*/
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    overflow: visible;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 header .header-content {
@@ -267,7 +268,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 80%;
+        min-height: 100%;
     }
 
     header .header-content {
